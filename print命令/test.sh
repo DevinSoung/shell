@@ -24,3 +24,10 @@ printf "%s %s %s\n" a b c d e f g h i j
 
 # 如果没有 arguments，那么 %s 用NULL代替，%d 用 0 代替
 printf "%s and %d \n" 
+
+###转义序列
+printf "a string, no processing:<%s>\n" "A\nB"
+
+printf "a string, no processing:<%b>\n" "A\nB"
+
+printf "www.runoob.com \a" #不换行
